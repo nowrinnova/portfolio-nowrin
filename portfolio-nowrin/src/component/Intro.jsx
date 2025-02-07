@@ -16,9 +16,9 @@ const Intro = () => {
 
       {/* Buttons & Social Links */}
       <div className="py-10 flex flex-wrap justify-center items-center gap-4">
-        <button className="px-8 py-3 border-2 border-purple-700 text-purple-700 rounded-lg text-lg hover:bg-purple-700 hover:text-white transition">
+        <a className="px-8 py-3 border-2 border-purple-700 text-purple-700 rounded-lg text-lg hover:bg-purple-700 hover:text-white transition cursor-pointer" href="https://drive.google.com/file/d/13StMZCgYJ_Mz8AzF_zddagRdJcnJZk-O/view?usp=drive_link">
           Resume
-        </button>
+        </a>
         <a
           href="https://github.com/nowrinnova"
           target="_blank"
