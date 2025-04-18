@@ -1,6 +1,6 @@
 const Educaion = () => {
   return (
-    <div className="max-w-2xl mx-auto md:mt-5 leading-10">
+    <div className="w-full mx-auto md:mt-5 leading-10">
       <h1 className="text-2xl py-5 text-center font-semibold text-gray-600">
         Education
       </h1>

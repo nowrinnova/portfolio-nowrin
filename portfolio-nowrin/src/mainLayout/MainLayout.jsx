@@ -5,18 +5,23 @@ import Footer from "../component/Footer";
 import Intro from "../component/Intro";
 import NavBar from "../component/NavBar";
 import Projects from "../component/Projects";
+import Skill from "../component/Skill";
 
 const MainLayout = () => {
   return (
     <div className="max-w-7xl mx-auto md:px-10 flex-col space-y-10 md:space-y-20 bg-[#e9edef] font-lora">
-      <NavBar />
+      
 
       <div className="min-h-screen">
+        <div className="mb-10">   <NavBar /></div>
         <section id="intro">
           <Intro />
         </section>
         <section id="about">
           <AboutMe />
+        </section>
+        <section id="skills">
+          <Skill />
         </section>
         <section id="education">
           <Education />
@@ -29,7 +34,7 @@ const MainLayout = () => {
         </section>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-
+import { FaFacebook } from "react-icons/fa6";
 const Intro = () => {
   return (
     <div className="max-w-4xl mx-auto text-center px-5">
@@ -34,6 +34,14 @@ const Intro = () => {
           className="p-3 border-2 border-purple-700 rounded-lg text-purple-700 hover:bg-purple-700 hover:text-white transition"
         >
           <FaLinkedin className="text-2xl" />
+        </a>
+        <a
+          href="https://www.facebook.com/aiza.azrin.227114/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="p-3 border-2 border-purple-700 rounded-lg text-purple-700 hover:bg-purple-700 hover:text-white transition"
+        >
+          <FaFacebook  className="text-2xl" />
         </a>
       </div>
     </div>

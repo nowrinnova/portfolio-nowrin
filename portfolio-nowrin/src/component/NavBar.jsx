@@ -5,7 +5,7 @@ const NavBar = () => {
         <a href="#about">About Me</a>
       </li>
       <li>
-        <a href="#about">Skills</a>
+        <a href="#skills">Skills</a>
       </li>
       <li>
         <a href="#education">Education</a>
@@ -47,7 +47,7 @@ const NavBar = () => {
           </ul>
         </div>
 
-        <div className="hidden md:block">
+        {/* <div className="hidden md:block">
           <a href="#">
             <img
               src="https://i.ibb.co/JRHFMWbq/nowrinnova-high-resolution-logo-transparent.png"
@@ -55,7 +55,7 @@ const NavBar = () => {
               className="w-10"
             />
           </a>
-        </div>
+        </div> */}
       </div>
 
       <div className="navbar-center hidden lg:flex">
