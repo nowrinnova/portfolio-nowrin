@@ -23,6 +23,7 @@ const Educaion = () => {
           <li>Advance Database Management System</li>
         </ul>
       </div>
+      
     </div>
   );
 };
